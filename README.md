@@ -12,9 +12,6 @@ Personal build of Suckless' DWM (Dynamic Window Manager)
 
 _Unfortunately, I don't remember where I got the code for the status bar height and the centered floating windows, but if I ever do, I'll give proper credit._
 
-
-#### _See LICENSE file for copyright and license details_
-
 -----------------
 
 dwm - dynamic window manager
@@ -65,3 +62,7 @@ Configuration
 -------------
 The configuration of dwm is done by creating a custom config.h
 and (re)compiling the source code.
+
+-------
+
+#### _See LICENSE file for copyright and license details_
