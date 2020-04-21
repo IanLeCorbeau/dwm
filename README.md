@@ -3,6 +3,7 @@ Personal build of Suckless' DWM (Dynamic Window Manager)
 
 ### Applied Patches
   * Fullgaps
+  * Rotatestack
   * xrdb (I might rebuild without this one, since I don't find it really useful after all)
 
 #### Other modifications
