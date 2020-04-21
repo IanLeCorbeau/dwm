@@ -1,5 +1,4 @@
-# DWM
-Personal build of Suckless' DWM (Dynamic Window Manager)
+Personal build of Suckless' dwm (Dynamic Window Manager)
 
 ### Applied Patches
   * Fullgaps
