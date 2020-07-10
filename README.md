@@ -1,11 +1,13 @@
 Personal build of Suckless' dwm (Dynamic Window Manager)
 
 ### Applied Patches
-  * Fullgaps
-  * Rotatestack
-  * xrdb (I might rebuild without this one, since I don't find it really useful after all)
+  * [Fullgaps](https://dwm.suckless.org/patches/fullgaps/)
+  * [Rotatestack](https://dwm.suckless.org/patches/rotatestack/)
+  * [Titlecolor](https://dwm.suckless.org/patches/titlecolor/)
+  * [xrdb](https://dwm.suckless.org/patches/xrdb/)
 
 #### Other modifications
+  * Modified so that the titlecolor and xrdb patches work together, so the title colors can be set through .Xresources (will create an actual patch for it later)
   * Option to adjust the status bar's height
   * Floating windows always open in the center of the screen
   * mpv and sxiv always open in floating mode
