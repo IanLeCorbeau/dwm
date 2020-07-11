@@ -2,6 +2,7 @@ Personal build of Suckless' dwm (Dynamic Window Manager)
 
 ### Applied Patches
   * [Fullgaps](https://dwm.suckless.org/patches/fullgaps/)
+  * [Pertag](https://dwm.suckless.org/patches/pertag/)
   * [Rotatestack](https://dwm.suckless.org/patches/rotatestack/)
   * [Titlecolor](https://dwm.suckless.org/patches/titlecolor/)
   * [xrdb](https://dwm.suckless.org/patches/xrdb/)
