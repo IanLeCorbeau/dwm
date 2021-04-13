@@ -9,16 +9,16 @@ static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "monospace:size=10" };
 static const char dmenufont[]       = "monospace:size=10";
-static char normbgcolor[]           = "#222222";
-static char normbordercolor[]       = "#444444";
-static char normfgcolor[]           = "#bbbbbb";
-static char selfgcolor[]            = "#eeeeee";
-static char selbordercolor[]        = "#005577";
-static char selbgcolor[]            = "#005577";
-static char titlebordercolor[]	    = "#242424";
-static char titlebgcolor[]	    = "#242424";
-static char titlefgcolor[]	    = "#eeeeee";
-static char *colors[][3] = {
+static const char normbgcolor[]     = "#222222";
+static const char normbordercolor[] = "#444444";
+static const char normfgcolor[]     = "#bbbbbb";
+static const char selfgcolor[]      = "#eeeeee";
+static const char selbordercolor[]  = "#5294E2";
+static const char selbgcolor[]      = "#5294E2";
+static const char titlebordercolor[] = "#5294E2";
+static const char titlebgcolor[]     = "#242424";
+static const char titlefgcolor[]      = "#eeeeee";
+static const char *colors[][3] = {
        /*               fg           bg           border   */
        [SchemeNorm] = { normfgcolor, normbgcolor, normbordercolor },
        [SchemeSel]  = { selfgcolor,  selbgcolor,  selbordercolor  },
@@ -98,7 +98,6 @@ static Key keys[] = {
 	{ MODKEY,                       XK_minus,  setgaps,        {.i = -1 } },
 	{ MODKEY,                       XK_equal,  setgaps,        {.i = +1 } },
 	{ MODKEY|ShiftMask,             XK_equal,  setgaps,        {.i = 0  } },
-	{ MODKEY,                       XK_F5,     xrdb,           {.v = NULL } },
 	TAGKEYS(                        XK_1,                      0)
 	TAGKEYS(                        XK_2,                      1)
 	TAGKEYS(                        XK_3,                      2)
