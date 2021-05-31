@@ -7,9 +7,9 @@ Personal build of Suckless' dwm (Dynamic Window Manager)
   * [Titlecolor](https://dwm.suckless.org/patches/titlecolor/)
 
 #### Other modifications
+  * No spawn function. Dmenu, st and any other program needs to be launched via sxhkd or xbindkeys (etc).
   * Option to adjust the status bar's height
   * Floating windows always open in the center of the screen
-  * mpv and sxiv always open in floating mode
 
 _Unfortunately, I don't remember where I got the code for the status bar height and the centered floating windows, but if I ever do, I'll give proper credit._
 
